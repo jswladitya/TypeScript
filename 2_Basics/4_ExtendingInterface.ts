@@ -13,3 +13,18 @@ interface Admin extends User{
 function abcd(obj: Admin){
     // obj. // common sense
 }
+
+
+//Merging interfaces
+interface Abcd{
+    name : string
+}
+
+interface Abcd{
+    email : string
+}
+
+//Multiple interfaces of the same name can be merged, and forms one single interface jisme dono interfaces ke properties rahenge
+function Merged(obj:Abcd){
+    //can access both the interfaces properties (ie, name and email)
+}

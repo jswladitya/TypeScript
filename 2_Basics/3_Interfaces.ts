@@ -7,6 +7,7 @@ Interfaces
     -> Extending interfaces 
 
 Type Aliases
+Intersection types
 
 */
 
