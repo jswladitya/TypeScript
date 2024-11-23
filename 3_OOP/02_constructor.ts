@@ -35,4 +35,4 @@ let human1 = new humanMaker('aditya', true);
 
 
 //the problem
-human1.name = "jaiswal" //i can change the values
+// human1.name = "jaiswal" //i can change the values, it is due to "access modifier public" , if we set it to private then it wont happen
