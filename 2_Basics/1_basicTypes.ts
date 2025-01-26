@@ -21,9 +21,9 @@ let arr4:String[] = ['1','2','34','56'] //only string
 
 //Tuples
 let arr5:[string, number] = ['aditya', 23]
-//i case u want to make an array of fixed size and location
+//in case u want to make an array of fixed size and location
 
-//Enums -> enumerations (sort of key value pairs , generally made for future works)
+//Enums -> enumerations (sort of key value pairs , generally made for future use)
 enum UserRoles{
     ADMIN = 'admin',
     GUEST = 'guest',
@@ -40,17 +40,29 @@ a = true
 let b:Number; //b is defined to be a number, its fixed
 
 
-//Unknown 
+//Unknown (least used) -> similar to any but with some restrictions
 
 
-//Void
+//Void -> if a function does not return anything, just add void to it after colon
+function printName(name:string):void{
+    console.log(name)
+}
+
+function printMe(name:string):string{
+    return name ; // if function returns something, then we have to mention the type of return value after colon
+}
 
 
 //Null
+let z:null | string; //either null or string
+z =null;
+z= "aditya"
+// z=undefined; //error
+// z=12; //error
 
 
 //Undefined 
 let c:undefined; //like JS if we just declare & never assigns any value 
 
 
-//Never
+//Never -> if a function never returns anything, then we can use never (will use it if we want ki age ka code execute na ho)

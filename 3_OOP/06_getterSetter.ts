@@ -1,5 +1,4 @@
-//getter & setter, both are in class methods
-
+//getter & setter, both are in-class methods
 
 //method 1
 // class User{
@@ -38,7 +37,7 @@ class User{
 }
 
 let u1 = new User("aditya", 21)
-u1.name = "jaiswal" //set
+u1.name = "jaiswal" //set, no need to call setName method
 u1.age = 32 //set
 
 console.log(u1.name); //get

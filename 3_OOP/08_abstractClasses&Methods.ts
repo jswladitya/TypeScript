@@ -4,7 +4,7 @@
 
 class Tree {
     constructor(name:string){}
-}
+} //ye class kabhi bhi instantiate nhi hogi
 
 class mangoes extends Tree{
     

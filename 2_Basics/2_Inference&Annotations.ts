@@ -1,5 +1,5 @@
 
-//Type inference -> when u dont tell the variable its type , so bydefault its type will be any
+//Type inference -> when u dont tell the variable its type , so bydefault its type will be any, and it will be decided by the value assigned to the variable
 // let a;
 
 
@@ -12,7 +12,7 @@ n = true
 n = "Aditya"
 
 
-//NOTE : u can annote everything
+//NOTE : u can annotate everything
 //like functions parameters , its return type
 function abcd(a:number, b:string):void {
     //function defination

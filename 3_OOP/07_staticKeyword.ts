@@ -4,7 +4,7 @@
 // }
 
 //we can access the value defined under static keyword like
-// Aditya.version //1, (like we do for Math.PI, ad we get 3.14) 
+// Aditya.version //1, (like we do for Math.PI, and we get 3.14) 
 
 
 class Shery {

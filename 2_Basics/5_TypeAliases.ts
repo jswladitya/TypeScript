@@ -17,12 +17,13 @@ abcd(null) //allowed
 // abcd(34) //not allowed
 
 
-//union 
+//union --> pipe (|)
 type User = {
     name :string,
     email:string
 }
 
+//intersection
 //admin ke pass user ke properties toh he hi also uske pass uska apna method bhi he
 type Admin = User & {
     getDetails(user:string):void
