@@ -2,4 +2,4 @@
 - its like a development tool, your project still runs js , it helps to write better scalable maintainable & error free code
 
 ## Types in TypeScript
- - ![Types In Ts](/Notes/images/image.png)
+ - ![Types In Ts](./images/image.png)
